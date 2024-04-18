@@ -1,8 +1,12 @@
 import "./Headshot.css"
+import headshot from "../../assets/Laura.png"
 
 function Headshot() {
     return (
-        <h1>Headshot Content</h1>
+        <>
+        <img className="headshot" src={headshot}></img>
+        </>
+        
     )
 }
 
