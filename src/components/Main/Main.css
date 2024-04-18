@@ -1,0 +1,66 @@
+
+h1 {
+    margin: 25px auto 0 auto;
+    font-size: 1.5rem;
+    color: #2B283A;
+}
+h2 {
+    margin: 3px auto;
+    color: #F47D27;
+    font-size: .7rem;
+    font-weight: 400;
+}
+h3 {
+    color: #2B283A;
+    margin-bottom:0;
+    font-size: 1rem;
+}
+p {
+    color: #4A4E74;
+    margin-top: .5em;
+    font-size: .8rem;
+}
+a {
+    text-decoration: none;
+    margin: 5px auto;
+    color: #4A4E74;
+    font-size: .6rem;
+}
+.contact {
+    display: flex;
+    margin: auto;
+    gap: 25px;
+    padding: 10px;
+}
+.btn {
+    width: 115px;
+    height: 34px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email {
+    background-color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+.email {
+    border: 1px solid #888888;
+}
+.linkedin {
+    background-color: #297FE5;
+    color: white;
+}
+.btn-icon {
+    height:12px;
+    padding-right: 5px;
+}
+.paragraphs {
+    width:80%;
+    margin:auto;
+}
